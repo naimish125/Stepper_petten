@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class SliderScreen extends StatefulWidget {
+  const SliderScreen({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<SliderScreen> createState() => _SliderScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _SliderScreenState extends State<SliderScreen> {
   double _sliderValue = 1;
   String _pattern = '1';
 
