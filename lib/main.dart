@@ -8,7 +8,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     routes: {
-      '/': (context) => HomeScreen(),
+      '/': (context) => SliderScreen(),
     },
   ));
 }
