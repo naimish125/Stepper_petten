@@ -35,9 +35,9 @@ class _SliderScreenState extends State<SliderScreen> {
             children: [
               const Text(
                 'Slider pattern',
-                style: TextStyle(fontSize: 20),
+                style: TextStyle(fontSize: 18),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 18),
               Slider(
                 activeColor: Colors.black,
                 inactiveColor: Colors.white54,
@@ -53,10 +53,10 @@ class _SliderScreenState extends State<SliderScreen> {
                 },
                 onChangeEnd: _generatePattern,
               ),
-              const SizedBox(height: 18),
+              const SizedBox(height: 16),
               Text(
                 _pattern,
-                style: const TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 18),
                 textAlign: TextAlign.center,
               ),
             ],
